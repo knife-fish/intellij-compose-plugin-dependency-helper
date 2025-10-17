@@ -10,8 +10,8 @@
     <resource-bundle>messages.ComposeTemplateBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="org.jetbrains.plugins.template.toolWindow.ComposeSamplesToolWindowFactory"
-                    icon="org.jetbrains.plugins.template.ComposeIcons.ComposeToolWindow"
+        <toolWindow factoryClass="com.github.evil0th.intellijcomposeplugindependencyhelper.toolWindow.ComposeSamplesToolWindowFactory"
+                    icon="com.github.evil0th.intellijcomposeplugindependencyhelper.ComposeIcons.ComposeToolWindow"
                     id="ComposeSamples"/>
     </extensions>
 </idea-plugin>
